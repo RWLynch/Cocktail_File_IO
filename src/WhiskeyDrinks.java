@@ -61,6 +61,8 @@ public class WhiskeyDrinks {
         System.out.println("*   garnish with a brandied cherry.     *");
         System.out.println("*                                       *");
         System.out.println("*****************************************");
+
+        menu.pause();
 }
 
     public void oldFashioned(){
@@ -77,6 +79,7 @@ public class WhiskeyDrinks {
         System.out.println("*   into a chilled old fashioned,       *");
         System.out.println("*   garnish with a brandied cherry &    *");
         System.out.println("*   an orange peel.                     *");
+        System.out.println("*                                       *");
         System.out.println("*****************************************");
     }
 

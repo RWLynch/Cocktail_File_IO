@@ -63,4 +63,28 @@ public class Menu {
                 + "7) Random!\n"
                 + "0) Exit Program\n");
     }
+
+    public static void asciiArtMenu(){
+        System.out.println("********************************************");
+        System.out.println("  _");
+        System.out.println(" {_}");
+        System.out.println(" |(|");
+        System.out.println(" |=|");
+        System.out.println("/   \\           What Are We Drinking");
+        System.out.println("|.--|                   Tonight?");
+        System.out.println("||  |");
+        System.out.println("||  |    .    ' .");
+        System.out.println("|'--|  '     \\~~~/");
+        System.out.println("'-=-' \\~~~/   \\_/");
+        System.out.println("       \\_/     Y");
+        System.out.println("        Y     _|_");
+        System.out.println("       _|_                        art by jgs");
+        System.out.println("********************************************");
+    }
+
+    public void pause() {
+        Scanner scan = new Scanner(System.in);
+        System.out.println("\nPress Enter to continue...");
+        scan.nextLine();
+    }
 }
