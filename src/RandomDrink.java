@@ -76,7 +76,6 @@ public class RandomDrink {
         if (randomInt == 20){
             tequilaDrinks.marg();
         }
-        menu.pause();
     }
 
     public void dice(){
