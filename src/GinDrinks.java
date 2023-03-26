@@ -62,6 +62,8 @@ public class GinDrinks {
         System.out.println("*   orange peel over the glass.         *");
         System.out.println("*                                       *");
         System.out.println("*****************************************");
+
+        menu.pause();
     }
 
     public void aviation(){
@@ -82,6 +84,8 @@ public class GinDrinks {
         System.out.println("*   and garnish with a brandied cherry. *");
         System.out.println("*                                       *");
         System.out.println("*****************************************");
+
+        menu.pause();
     }
 
     public void peguClub(){
@@ -102,6 +106,8 @@ public class GinDrinks {
         System.out.println("*   with a lime wheel.                    *");
         System.out.println("*                                         *");
         System.out.println("*******************************************");
+
+        menu.pause();
     }
 
     public void ginBasilSmash(){
@@ -122,6 +128,8 @@ public class GinDrinks {
         System.out.println("*   Garnish with a sprig of basil.      *");
         System.out.println("*                                       *");
         System.out.println("*****************************************");
+
+        menu.pause();
     }
 
 }

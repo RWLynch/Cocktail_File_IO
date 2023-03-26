@@ -29,5 +29,6 @@ public class Logger {
         String userIdea = scan.nextLine();
         log(userIdea);
         System.out.println("Thank you for your suggestion!");
+        System.out.println();
     }
 }

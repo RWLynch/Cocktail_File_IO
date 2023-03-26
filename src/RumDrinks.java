@@ -62,6 +62,8 @@ public class RumDrinks {
         System.out.println("*   into a chilled coupe glass.         *");
         System.out.println("*                                       *");
         System.out.println("*****************************************");
+
+        menu.pause();
     }
 
     public void daiquiri(){
@@ -80,6 +82,8 @@ public class RumDrinks {
         System.out.println("*   with a lime wedge.                    *");
         System.out.println("*                                         *");
         System.out.println("*******************************************");
+
+        menu.pause();
     }
 
     public void mojito(){
@@ -101,6 +105,8 @@ public class RumDrinks {
         System.out.println("*   of soda, briefly stir and serve.      *");
         System.out.println("*                                         *");
         System.out.println("*******************************************");
+
+        menu.pause();
     }
 
     public void bitterMaiTai(){
@@ -122,5 +128,7 @@ public class RumDrinks {
         System.out.println("*   with a lime wedge.                    *");
         System.out.println("*                                         *");
         System.out.println("*******************************************");
+
+        menu.pause();
     }
 }

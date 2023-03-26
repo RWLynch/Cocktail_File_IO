@@ -1,8 +1,6 @@
 import java.util.Scanner;
 import java.util.Random;
 
-import static java.lang.Math.random;
-
 public class Menu {
 
     public static void run(){
@@ -10,9 +8,11 @@ public class Menu {
         VodkaDrinks vodkaDrinks = new VodkaDrinks();
         RumDrinks rumDrinks = new RumDrinks();
         GinDrinks ginDrinks = new GinDrinks();
+        TequilaDrinks tequilaDrinks = new TequilaDrinks();
         Logger logger = new Logger();
         Scanner scan = new Scanner(System.in);
         Random random = new Random();
+        RandomDrink rd = new RandomDrink();
 
         int choice = -1;
         printMenu();
@@ -23,13 +23,13 @@ public class Menu {
                     whiskeyDrinks.whiskeyMenu();
                     break;
                 case 2:
-                    System.out.println("Vodka drinks coming soon!");
+                    vodkaDrinks.vodkaMenu();
                     break;
                 case 3:
                     rumDrinks.rumMenu();
                     break;
                 case 4:
-                    System.out.println("Tequila drinks coming soon!");
+                    tequilaDrinks.tequilaMenu();
                     break;
                 case 5:
                     ginDrinks.ginMenu();
@@ -38,7 +38,8 @@ public class Menu {
                     logger.suggestionMenu();
                     break;
                 case 7:
-                    System.out.println(random.nextInt(30));
+                    rd.dice();
+                    rd.randomCocktail();
                     break;
                 default:
                     System.out.println("This is an invalid selection");
@@ -78,8 +79,11 @@ public class Menu {
         System.out.println("'-=-' \\~~~/   \\_/");
         System.out.println("       \\_/     Y");
         System.out.println("        Y     _|_");
-        System.out.println("       _|_                        art by jgs");
+        System.out.println("       _|_ ");
+        System.out.println();
+        System.out.println("                Ascii Art by Joan G. Stark");
         System.out.println("********************************************");
+
     }
 
     public void pause() {

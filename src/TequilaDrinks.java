@@ -12,16 +12,16 @@ public class TequilaDrinks {
         while (choice != 5) {
             switch(choice) {
                 case 1:
-                    manhattan();
+                    marg();
                     break;
                 case 2:
-                    oldFashioned();
+                    oaxaca();
                     break;
                 case 3:
-                    inFashion();
+                    paloma();
                     break;
                 case 4:
-                    boulevardier();
+                    division();
                     break;
                 case 5:
                     menu.run();
@@ -39,84 +39,100 @@ public class TequilaDrinks {
 
     public void printMenu(){
         System.out.println("Please select one of the following:\n"
-                + "1) Manhattan\n"
-                + "2) Old Fashioned\n"
-                + "3) In Fashion\n"
-                + "4) Boulevardier\n"
+                + "1) Margarita\n"
+                + "2) Oaxaca Old Fashioned\n"
+                + "3) Paloma\n"
+                + "4) Division Bell\n"
                 + "5) Return to main menu\n"
         );
     }
 
-    public void manhattan(){
+    public void marg(){
         System.out.println("*****************************************");
-        System.out.println("*             The Manhattan             *");
+        System.out.println("*             The Margarita             *");
         System.out.println("*                                       *");
-        System.out.println("*   2 oz Bourbon                        *");
-        System.out.println("*   1 oz Sweet Vermouth                 *");
-        System.out.println("*   2 dashes Angostura Bitters          *");
+        System.out.println("*   1.5 oz Reposado Tequila             *");
+        System.out.println("*   0.75 oz Cointreau                   *");
+        System.out.println("*   0.75 oz Lime                        *");
+        System.out.println("*   0.25 oz Agave Syrup                 *");
         System.out.println("*                                       *");
-        System.out.println("*   Combine ingredients in a mixing     *");
-        System.out.println("*   glass and stir with ice. Strain     *");
-        System.out.println("*   into a chilled coupe glass and      *");
-        System.out.println("*   garnish with a brandied cherry.     *");
+        System.out.println("*   Rim an old fashioned glass with     *");
+        System.out.println("*   a lime wedge and roll in salt.      *");
+        System.out.println("*   Combine ingredients in a shaking    *");
+        System.out.println("*   tin with ice and shake. Double      *");
+        System.out.println("*   strain the cocktail into the        *");
+        System.out.println("*   salt-rimmed old fashioned glass     *");
+        System.out.println("*   filled with ice, and garnish with   *");
+        System.out.println("*   a lime wedge.                       *");
         System.out.println("*                                       *");
         System.out.println("*****************************************");
+
+        menu.pause();
 }
 
-    public void oldFashioned(){
+    public void oaxaca(){
 
         System.out.println("*****************************************");
-        System.out.println("*         The Old Fashioned             *");
+        System.out.println("*         Oaxaca Old Fashioned          *");
         System.out.println("*                                       *");
-        System.out.println("*   2 oz Bourbon                        *");
-        System.out.println("*   1 barspoon Simple Syrup             *");
-        System.out.println("*   2 dashes Angostura Bitters          *");
+        System.out.println("*   1.5 oz Tequila                      *");
+        System.out.println("*   0.5 oz Mezcal                       *");
+        System.out.println("*   0.25 oz Agave Syrup                 *");
+        System.out.println("*   4 dashes Chocolate Bitters          *");
         System.out.println("*                                       *");
         System.out.println("*   Combine ingredients in a mixing     *");
         System.out.println("*   glass and stir with ice. Strain     *");
-        System.out.println("*   into a chilled old fashioned,       *");
-        System.out.println("*   garnish with a brandied cherry &    *");
-        System.out.println("*   an orange peel.                     *");
+        System.out.println("*   into an old fashioned with a        *");
+        System.out.println("*   large ice cube/sphere. Garnish      *");
+        System.out.println("*   with a flamed orange peel.          *");
+        System.out.println("*                                       *");
         System.out.println("*****************************************");
+
+        menu.pause();
     }
 
-    public void inFashion(){
+    public void paloma(){
 
         System.out.println("*****************************************");
-        System.out.println("*            The In-Fashion             *");
+        System.out.println("*              The Paloma               *");
         System.out.println("*                                       *");
-        System.out.println("*   2 oz Bourbon                        *");
-        System.out.println("*   1 barspoon Simple Syrup             *");
-        System.out.println("*   4 dashes Angostura Bitters          *");
-        System.out.println("*   4 dashes Orange Bitters             *");
-        System.out.println("*   1 large swath lemon peel            *");
-        System.out.println("*   1 barspoon of Mezcal                *");
+        System.out.println("*   1.75 oz Blanco Tequila              *");
+        System.out.println("*   1 oz Grapefruit Juice               *");
+        System.out.println("*   0.5 oz Lime Juice                   *");
+        System.out.println("*   0.25 oz Agave Syrup                 *");
+        System.out.println("*   Grapefruit Soda (to top)            *");
         System.out.println("*                                       *");
-        System.out.println("*   In a rocks glass, muddle the        *");
-        System.out.println("*   syrup and lemon peel with bitters.  *");
-        System.out.println("*   Add bourbon and a large ice cube.   *");
-        System.out.println("*   Stir until chilled. Using a         *");
-        System.out.println("*   barspoon, float mezcal over the     *");
-        System.out.println("*   top of the drink. Garnish with an   *");
-        System.out.println("*   expressed lemon peel.               *");
+        System.out.println("*   Fill a collins glass with ice.      *");
+        System.out.println("*   Shake the first four ingredients    *");
+        System.out.println("*   with ice in a shaking tin. Strain   *");
+        System.out.println("*   into collins glass, top with        *");
+        System.out.println("*   grapefruit soda, & briefly stir.    *");
+        System.out.println("*                                       *");
         System.out.println("*****************************************");
+
+        menu.pause();
     }
 
-    public void boulevardier(){
+    public void division(){
 
         System.out.println("*****************************************");
-        System.out.println("*          The Boulevardier             *");
+        System.out.println("*          The Division Bell            *");
+        System.out.println("*    (Not tequila, but a must have!)    *");
         System.out.println("*                                       *");
-        System.out.println("*   1 oz Bourbon                        *");
-        System.out.println("*   1 oz Campari                        *");
-        System.out.println("*   1 oz Sweet Vermouth                 *");
+        System.out.println("*   1 oz Mezcal                         *");
+        System.out.println("*   0.75 oz Aperol                      *");
+        System.out.println("*   0.5 oz Maraschino Liqueur           *");
+        System.out.println("*   0.75 oz Lime Juice                  *");
         System.out.println("*                                       *");
-        System.out.println("*   Combine ingredients in a mixing     *");
-        System.out.println("*   glass and stir with ice. Strain     *");
-        System.out.println("*   into a chilled old fashioned over   *");
-        System.out.println("*   a large ice cube and express an     *");
-        System.out.println("*   orange peel over the glass.         *");
+        System.out.println("*   Combine ingredients in a shaking    *");
+        System.out.println("*   tin with ice and shake. Double      *");
+        System.out.println("*   strain the cocktail into a chilled  *");
+        System.out.println("*   coupe glass and garnish with a      *");
+        System.out.println("*   grapefruit zest twist.              *");
+        System.out.println("*                                       *");
         System.out.println("*****************************************");
+
+        menu.pause();
     }
 
 }

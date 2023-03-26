@@ -81,6 +81,8 @@ public class WhiskeyDrinks {
         System.out.println("*   an orange peel.                     *");
         System.out.println("*                                       *");
         System.out.println("*****************************************");
+
+        menu.pause();
     }
 
     public void inFashion(){
@@ -102,7 +104,10 @@ public class WhiskeyDrinks {
         System.out.println("*   barspoon, float mezcal over the     *");
         System.out.println("*   top of the drink. Garnish with an   *");
         System.out.println("*   expressed lemon peel.               *");
+        System.out.println("*                                       *");
         System.out.println("*****************************************");
+
+        menu.pause();
     }
 
     public void boulevardier(){
@@ -119,7 +124,10 @@ public class WhiskeyDrinks {
         System.out.println("*   into a chilled old fashioned over   *");
         System.out.println("*   a large ice cube and express an     *");
         System.out.println("*   orange peel over the glass.         *");
+        System.out.println("*                                       *");
         System.out.println("*****************************************");
+
+        menu.pause();
     }
 
 }
